@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins , sans-serif;
+}
+input{
+    display: grid;
+   flex-direction: column;
+ 
+}
+.container-section{
+    background-color: white;
+    padding-bottom: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 700px;
+    max-width: 90%;
+    min-height: 100px;
+    padding-top: 60px;
+   
+ 
+}
+
+.par-par1{
+    background: linear-gradient(rgb(254, 216, 147) , white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh
+}
+
+.content-contact{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+h1{
+    color: orange;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+  
+}
+h5{
+    color: gray;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 15px;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+.content-contact input{
+    height: 1.5rem;
+    width: 20rem;
+    border-width: 15px;
+    border: white;
+    box-shadow: 0 0 6px orange;
+    outline: none;
+    padding: 10px;
+    font-size: 10px;
+   
+}
+.content-contact textarea{
+    padding: 20px;
+}
+textarea{
+    border-width: 15px;
+    border: white;
+    box-shadow: 0 0 6px orange;
+    outline: none;
+    padding: 10px;
+    font-size: 10px;
+    margin-left: 13px;
+}
+input:focus{
+    box-shadow: 0 1px 1px orange inset, 0 0 16px white;
+    outline: 0 none;
+}
+.send-button{
+    height: 3rem;
+    width: 20rem;
+    color: white;
+    background-color:#F28D00;
+    border-color: orange;
+   margin-left: 15px;
+}
+.picture-image{
+  margin-right: 90px;
+margin-bottom: 60px;
+}
+
+form{
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.div1-contact{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.table-pictures{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2px;
+  
+}
+.contact-section{
+    height: 40vh;
+}
+.title-contact{
+    text-decoration: underline;
+}
